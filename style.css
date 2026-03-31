@@ -1,6 +1,5 @@
-input{
-    color:cadetblue
-}
-button{
-    color: black;
+h1{
+    color:brown;
+    background-color: cadetblue;
+    display: inline;
 }
