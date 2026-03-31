@@ -1,5 +1,12 @@
 h1{
-    color:brown;
-    background-color: cadetblue;
+    color:black;
+    background-color:darkgoldenrod;
     display: inline;
+}
+body{
+    background-color:chocolate;
+}
+button{
+    color: blue;
+    background-color: black;
 }
