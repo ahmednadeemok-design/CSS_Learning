@@ -3,10 +3,16 @@ h1{
     background-color:darkgoldenrod;
     display: inline;
 }
-body{
-    background-color:chocolate;
-}
+
 button{
     color: blue;
     background-color: black;
+}
+body{
+    background-image: url(./download\ \(1\).jfif);
+    background-size: cover;
+
+}
+label{
+    color: aliceblue;
 }
