@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+.header p {
+  color: yellow;
+  margin-top: 5px;
+}
+
+/* Section */
+.section {
+  padding: 20px;
+}
+
+/* Divider (Grey Space) */
+.divider {
+  height: 20px;
+  background-color: #e0e0e0;
+}
+
+/* Headings */
+h2 {
+  color: #1E90FF;
+}
+
+h3 {
+  color: #FF69B4;
+}
+
+/* List */
+ul {
+  margin-top: 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #1E90FF;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
