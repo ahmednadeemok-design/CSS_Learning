@@ -1,3 +1,11 @@
 h1{
     color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+h2{
+    font-variant:small-caps;
+}
+p{
+    font-stretch: extra-expanded;
 }
