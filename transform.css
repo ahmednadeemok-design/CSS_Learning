@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border: 5px solid black;
+    font-size: 3rem;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
