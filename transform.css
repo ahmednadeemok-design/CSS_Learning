@@ -12,9 +12,10 @@ body{
     background-color: wheat;
     height: 100%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
 
 
 }
@@ -24,8 +25,47 @@ body{
     background-color: orange;
     border: 5px solid black;
     font-size: 3rem;
-     display: flex;
-    align-items: center;
-    justify-content: center; 
+     
+    transition-property: all;
+    transition-timing-function:linear;
+    transition-duration: 3s;
     
 }
+
+.Box1:hover{
+    transform: rotatex(60deg);
+    background-color: red;
+}
+.Box2:hover{
+    transform: rotatey(60deg);
+    background-color: red;
+}
+.Box3:hover{
+    transform: rotatez(60deg);
+    background-color: red;
+}
+.Box4:hover{
+    transform: translatex(200px);
+    background-color: red;
+}
+.Box5:hover{
+    transform: translatey(200px);
+    background-color: red;
+}
+.Box6:hover{
+    transform: perspective(1000px) translatez(200px);
+    background-color: red;
+}
+.Box7:hover{
+    transform: scalex(2);
+    background-color: red;
+}
+.Box8:hover{
+    transform: scaley(2);
+    background-color: red;
+}
+.Box9:hover{
+    transform: perspective(1000px) rotatey(45deg) scalez(1000);
+    background-color: red;
+}
+
