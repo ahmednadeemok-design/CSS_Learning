@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.solar-system{
+    position:relative;
+    width:700px;
+    height:700px;
+}
+
+/* SUN */
+
+.sun{
+    width:100px;
+    height:100px;
+    background:gold;
+    border-radius:50%;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    box-shadow:0 0 50px gold;
+}
+
+/* EARTH ORBIT */
+
+.earth-orbit{
+    width:300px;
+    height:300px;
+    border:2px solid rgba(255,255,255,0.3);
+    border-radius:50%;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    animation: rotate 10s linear infinite;
+}
+
+.earth{
+    width:35px;
+    height:35px;
+    background:deepskyblue;
+    border-radius:50%;
+
+    position:absolute;
+    top:-18px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/* MARS ORBIT */
+
+.mars-orbit{
+    width:450px;
+    height:450px;
+    border:2px solid rgba(255,255,255,0.3);
+    border-radius:50%;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    animation: rotate 18s linear infinite;
+}
+
+.mars{
+    width:30px;
+    height:30px;
+    background:orangered;
+    border-radius:50%;
+
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/* ANIMATION */
+
+@keyframes rotate{
+
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+
+}
